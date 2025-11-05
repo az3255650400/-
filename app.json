@@ -1,0 +1,24 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/main/main",
+    "pages/main/clean/clean",
+    "pages/main/chat/chat",
+    "pages/main/device/device",
+    "pages/main/reward/reward",
+    "pages/main/person/person",
+    "pages/main/components/rewardBar/rewardBar",
+    "pages/main/pay/pay"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "归巢",
+    "navigationBarBackgroundColor": "#1E2434",
+    "enablePullDownRefresh": true
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
