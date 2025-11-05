@@ -1,0 +1,65 @@
+<view class="login-page">
+   <view class="head">
+      <image
+        src="/assets/star3.png"
+        mode="scaleToFill"
+        class="star3"
+      />
+      <image
+        src="/assets/moon2.png"
+        mode="scaleToFill"
+        class="moon2"
+      />
+      <image
+        src="/assets/bird.png"
+        mode="scaleToFill"
+        class="bird"
+      />
+      <image
+        src="/assets/nest.png"
+        mode="scaleToFill"
+        class="nest"
+      />
+   </view>
+   <image
+     src="/assets/line.png"
+     mode="scaleToFill"
+     class="line"
+   />
+   <view class="content">
+     <view class="menu">
+        <view class="tab-item {{currentTab === 0 ? 'active' : ''}}" bindtap="switchTab" data-index="0">登录</view>
+        <view class="tab-item {{currentTab === 1 ? 'active' : ''}}" bindtap="switchTab" data-index="1">注册</view>
+     </view>
+     <view class="down">
+      <login-form wx:if="{{currentTab === 0}}"></login-form>
+      <register-form wx:if="{{currentTab === 1}}"></register-form>
+      </view>
+   </view>
+   <view class="line-bar">
+     <view class="line2"></view>
+     <view class="three-register">第三方注册</view>
+     <view class="line3"></view>
+   </view>
+   <view class="three-bar">
+      <view class="item">
+        <image
+          src="/assets/wechat.png"
+          mode="scaleToFill"
+        /> 
+      </view>
+      <view class="item">
+        <image
+          src="/assets/alipay.png"
+          mode="scaleToFill"
+        /> 
+      </view>
+      <view class="item">
+        <image
+          src="/assets/fuu.png"
+          mode="scaleToFill"
+        /> 
+      </view>
+   </view>
+   <view class="hint-under">注册即代表您已阅读并同意《用户协议》与《隐私政策》</view>
+</view>

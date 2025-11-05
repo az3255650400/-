@@ -1,0 +1,114 @@
+.login-page{
+  width: 100%;
+  height: 100vh;
+  background-color: #1E2434;
+  color: white;
+  position: relative;
+  overflow-y: auto;
+}
+.bird{
+  position: absolute;
+  left: 138.18px;
+  top: 35px;
+  width: 112.24px;
+  height: 95px;
+}
+.nest{
+  position: absolute;
+  left: 117px;
+  top: 96.43px;
+  width: 138px;
+  height: 56.72px;
+}
+.star3{
+  position: absolute;
+  left: -47px;
+  top: -21px;
+  width: 161px;
+  height: 131px;
+}
+.moon2{
+  position: absolute;
+  left: 260.28px;
+  top: -10px;
+  width: 120.37px;
+  height: 120.95px;
+}
+.line{
+  position: absolute;
+  left: 40px;
+  top: 175px;
+  width: 310px;
+  height: 5px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  left: 94px;
+  top: 189px;
+  width: 183px;
+  height: 24px;
+  color: #FFE873;
+}
+.down{
+  position: absolute;
+  left: 30px;
+  top: 220px;
+  width: 85%;
+}
+.line2{
+  width: 89px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 59px;
+  top: 690.5px;
+}
+.three-register{
+  width: 70px;
+  height: 15px;
+  position: absolute;
+  left: 156px;
+  top: 680.5px;
+  font-size: small;
+}
+.line3{
+  width: 89px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 228px;
+  top: 690.5px;
+}
+.three-bar{
+  display: flex;
+  flex-direction: row;
+  width: 255px;
+  height: 30px;
+  position: absolute;
+  left: 93px;
+  top: 705.5px;
+}
+.item{
+  width: 33%;
+  height: 110%;
+  border-radius: 50%;
+  margin-right: 50px;
+}
+.item image{
+  width: 100%;
+  height: 100%;
+}
+.hint-under{
+  position: absolute;
+  left: 60px;
+  top: 745.5px;
+  font-size: xx-small;
+}
